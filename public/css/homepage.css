@@ -1,14 +1,10 @@
-html {
-  height: 100%;
+.background {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-body {
-  top: 0px;
-  height: 100%;
-  background: url(/static/img/homepage.jpg) no-repeat center top;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  background-color: #464646;
-  overflow: scroll;
+.homepageImg {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
 }
