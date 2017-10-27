@@ -1,0 +1,24 @@
+{
+  "name": "digital_archive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny8508021/Digital_Archive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danny8508021/Digital_Archive/issues"
+  },
+  "homepage": "https://github.com/danny8508021/Digital_Archive#readme"
+}

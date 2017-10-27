@@ -3,10 +3,12 @@ const app  = express();
 const http = require('http').Server(app);
 const path = require('path')
 
-app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use('/static/html', express.static(path.join(__dirname, 'public/html')));
+app.use('/static/css', express.static(path.join(__dirname, 'public/css')));
+app.use('/static/img', express.static(path.join(__dirname, 'public/img')));
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname + '/public/index.html'));
+  res.sendFile(path.join(__dirname + '/public/html/index.html'));
 });
 
 http.listen(3000, function(){
