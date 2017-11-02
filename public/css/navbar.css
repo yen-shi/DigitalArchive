@@ -1,0 +1,13 @@
+.navbar-custom  {
+    background-color: #FFFFFF;
+    border-color: #999999;
+    font-family: SimSun, STSong;
+}
+
+.navbar-custom li a {
+    color: #000000;
+}
+
+.navbar-custom a:hover {
+    color: grey;
+}
