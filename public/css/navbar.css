@@ -5,9 +5,22 @@
 }
 
 .navbar-custom li a {
-    color: #000000;
+    color: #515356;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 20px;
+    text-align: center;
+    line-height: 18px;
 }
 
-.navbar-custom a:hover {
-    color: grey;
+.navbar-custom li a:hover {
+    color: #9F9383;
+}
+
+a {
+    color: inherit;
+}
+
+#chinese {
+    font-size: 12px;
 }
