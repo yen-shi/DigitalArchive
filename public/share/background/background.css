@@ -1,0 +1,11 @@
+.background {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundImg {
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
