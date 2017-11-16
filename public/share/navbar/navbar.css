@@ -20,3 +20,8 @@
 #chinese {
     font-size: 12px;
 }
+
+.navbar-header a {
+    color: inherit;
+    text-align: center;
+}
