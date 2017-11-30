@@ -1,0 +1,28 @@
+.card {
+  padding: 20px;
+}
+
+.content-header {
+  height: 100px;
+  padding-top: 30px;
+  border-bottom: 2px rgb(171, 171, 171) solid;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: SimSun, STSong;
+}
+
+.content {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#header-chinese {
+  font-size: 18px;
+}
+
+#header-english {
+  line-height: 24px;
+  font-size: 28px;
+  font-weight: bold;
+}
