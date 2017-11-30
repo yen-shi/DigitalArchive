@@ -28,7 +28,6 @@
     font-size: 20px;
 }
 
-.navbar-toggle {
-    color: #1111FF;
-    z-index: -1;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #515356;
 }

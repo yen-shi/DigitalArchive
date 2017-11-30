@@ -2,13 +2,13 @@ document.getElementById("navMenu").innerHTML =
   '<div class="container-fluid">'+
     '<div class="navbar-header">'+
       '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">'+
-        '<span class="icon-bar"></span>'+
-        '<span class="icon-bar"></span>'+
-        '<span class="icon-bar"></span>'+                     
+        '<span class="icon-bar" style="background-color: #515356"></span>'+
+        '<span class="icon-bar" style="background-color: #515356"></span>'+
+        '<span class="icon-bar" style="background-color: #515356"></span>'+                     
       '</button>'+
       '<a class="navbar-brand" href="/static/homepage">Lin-Shan Lee</a>'+
     '</div>'+
-    '<div class="collapse navbar-collapse" id="myNavbar">'+
+    '<div class="navbar-collapse collapse" id="myNavbar">'+
       '<ul class="nav navbar-nav">'+
         '<li><a href="/static/about"><span id="navbar-chinese">關於</span><br>About</a></li>'+
         '<li><a href="/static/education"><span id="navbar-chinese">教學篇</span><br>Education</a></li>'+
