@@ -1,0 +1,35 @@
+.card {
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px rgb(171, 171, 171) solid;
+}
+
+.menu-right {
+  border-right: 2px rgb(171, 171, 171) solid;
+}
+
+.menu a {
+  color: rgb(82, 83, 85);
+  text-align: center;
+  font-family: SimSun, STSong;
+}
+
+.menu a:hover {
+  color: rgb(157, 147, 132);
+  text-decoration: none;
+}
+
+#menu-chinese {
+  font-size: 14px;
+}
+
+#menu-english {
+  line-height: 24px;
+  font-size: 28px;
+}
