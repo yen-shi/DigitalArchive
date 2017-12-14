@@ -17,36 +17,36 @@
     <div class="container background">
       <img src="/static/about/img/about.png" class="backgroundImg img-responsive" alt="About image">
       <div class="container menu-bar">
-        <div class="menu col-xs-3">
-          <div onclick="return navigate(0)"><span id="menu-chinese">簡歷</span><br><span id="menu-english">Profile</span></div>
+        <div class="menu col-xs-4">
+          <div href="#" onclick="return navigate('Biography')"><span id="menu-chinese">傳記</span><br><span id="menu-english">Biography</span></div>
         </div>
-        <div class="menu col-xs-3">
-          <div href="#" onclick="return navigate(1)"><span id="menu-chinese">傳記</span><br><span id="menu-english">Biography</span></div>
+        <div class="menu col-xs-4">
+          <div href="#" onclick="return navigate('Honor')"><span id="menu-chinese">榮譽</span><br><span id="menu-english">Honor</span></div>
         </div>
-        <div class="menu col-xs-3">
-          <div href="#" onclick="return navigate(2)"><span id="menu-chinese">榮譽</span><br><span id="menu-english">Honor</span></div>
+        <div class="menu menu-right col-xs-4">
+          <div href="#" onclick="return navigate('Timeline')"><span id="menu-chinese">生平</span><br><span id="menu-english">Timeline</span></div>
         </div>
-        <div class="menu menu-right col-xs-3">
-          <div href="#" onclick="return navigate(3)"><span id="menu-chinese">生平</span><br><span id="menu-english">Timeline</span></div>
+        <div class="col-xs-12 content-header">
         </div>
-          <div class="col-xs-12 content-header">
-            <div>Biography</div>
-          </div>
-          <div class="col-xs-12 content">
-            <div>Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            Content  Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content 
-            </div>
-          </div>
-      </div>
+        <div class="col-xs-12 content">
+        </div>
+            <!-- Button trigger modal -->
 
+<!-- Modal -->
+<!-- Ref: https://coolestguidesontheplanet.com/bootstrap/modal.php -->
+<div class="modal fade" id="biographyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
     </div>
     <script src="/static/share/navbar/navScript.js"></script>
     <script src="/static/about/js/about.js"></script>

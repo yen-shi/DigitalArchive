@@ -3,7 +3,7 @@
 }
 
 .content-header {
-  height: 100px;
+  height: 125px;
   padding-top: 30px;
   border-bottom: 2px rgb(171, 171, 171) solid;
   text-align: center;
@@ -17,12 +17,52 @@
   padding-bottom: 50px;
 }
 
-#header-chinese {
+.detail-button {
+  cursor: pointer;
+}
+
+.detail-button:hover {
+  text-decoration: none;
+}
+
+.modal-dialog {
+  width: 80%;
+}
+
+.modal-close {
+  position: fixed;
+  z-index: 1;
+  top: 3px;
+  right: 8px;
+}
+
+.modal-body {
   font-size: 18px;
 }
 
+#header-chinese {
+  font-size: 26px;
+}
+
 #header-english {
-  line-height: 24px;
-  font-size: 28px;
+  line-height: 30px;
+  font-size: 36px;
   font-weight: bold;
 }
+
+@media (max-width:640px) {
+  .content-header {
+    height: 100px;
+  }
+
+  #header-chinese {
+    font-size: 18px;
+  }
+
+  #header-english {
+    line-height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+

@@ -5,11 +5,13 @@
 
 .menu {
   display: flex;
-  height: 65px;
+  height: 80px;
   justify-content: center;
   align-items: center;
   border-left: 2px rgb(171, 171, 171) solid;
+  cursor: pointer;
 }
+
 .menu-right {
   border-right: 2px rgb(171, 171, 171) solid;
 }
@@ -26,11 +28,27 @@
 }
 
 #menu-chinese {
-  font-size: 18px;
+  font-size: 26px;
 }
 
 #menu-english {
-  line-height: 24px;
-  font-size: 28px;
+  line-height: 30px;
+  font-size: 36px;
   font-weight: bold;
+}
+
+@media (max-width:640px) {
+  .menu {
+    height: 65px;
+  }
+
+  #menu-chinese {
+    font-size: 18px;
+  }
+
+  #menu-english {
+    line-height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
 }
