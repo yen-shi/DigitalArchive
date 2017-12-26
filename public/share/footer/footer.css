@@ -4,7 +4,9 @@
   font-family: SimSun, STSong;
   text-align: center;
   color: #FFFFFF;
+  height: 200px;
 }
+
 .contact {
   line-height: 25px;
 }
