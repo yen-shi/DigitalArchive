@@ -1,8 +1,9 @@
 .footer-custom  {
   margin-bottom: 0px;
-  background-color: #FFFFFF;
+  background-color: #515356;
   font-family: SimSun, STSong;
   text-align: center;
+  color: #FFFFFF;
 }
 .contact {
   line-height: 25px;
