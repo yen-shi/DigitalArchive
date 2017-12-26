@@ -7,9 +7,65 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/share/navbar/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/static/share/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="/static/share/background/background.css">
   </head>
   <body>
   	<nav id="navMenu" class="navbar navbar-fixed-top navbar-custom "></nav>
+    <div class="container background">
+      <img src="/static/talks/img/about.png" class="backgroundImg img-responsive" alt="Talks image">
+    </div>
+
+    <div class="container">
+      <!-- Ref: https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-accordion.php -->
+      <div id="accordion" class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. 全球性榮譽</a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <h5><a href="https://drive.google.com/drive/folders/0BzqR-ZhARFEVYjAtX3p1Z3Roems">Google Drive</a></h5>
+              <h5>1993 電機電子工程師學會 IEEE Fellow (or 1992 ?)</h5>
+              <p>Citation : for Contributions to Computer Voice Input/Output Techniques for Mandarin Chinese and Engineering Education</p>
+              <h5>1995 Distinguished Lecturer, IEEE Computer Society</h5>
+              <h5>2007 Distinguished Lecturer, IEEE Signal Processing Society</h5>
+              <h5>2010 國際口語溝通學會 ISCA Fellow</h5>
+              <p>Citation : for Contributions to Chinese Spoken Language Processing and Speech Information Retrieval</p>
+              <h5>2011 Meritorious Service Award, IEEE Signal Processing Society</h5>
+              <p>Citation : for Extraordinary Service to the Speech and Signal Processing Community)</p>
+              <h5>2014 Exemplary Global Service Award, IEEE Communications Society</h5>
+              <p>Citation : for Contributions in International Activities, Development of Global Collaboration, and Promotion of Global Volunteer Participation and Services</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. 國家級榮譽</a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. 台灣大學校內榮譽</a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <nav id="footerMenu" class="navbar navbar-default footer-custom"></nav>
     <script src="/static/share/navbar/navScript.js"></script>
     <script src="/static/share/footer/footScript.js"></script>
