@@ -1,6 +1,6 @@
 function contactComponent(iconName, content) {
   component =
-    '<div class="col-xs-4">' +
+    '<div class="col-xs-12 col-sm-4">' +
       '<div class="footer-contact">' +
         '<div class="footer-icon">' +
           '<span class="glyphicon ' + iconName + '" aria-hidden="true"></span>' +
