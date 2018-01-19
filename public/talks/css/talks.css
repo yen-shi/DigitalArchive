@@ -1,0 +1,33 @@
+.panel {
+    border: 0;
+}
+
+.panel-title-custom {
+    margin: 10px;
+    border-bottom-width: 1px;
+    border-bottom: solid;
+    border-bottom-color: #EEEEEE;
+}
+
+.panel-title-custom:hover {
+    background-image: linear-gradient(#FFFFFF 0%, #D3CCC2 100%);
+}
+
+.panel-title-text-custom, .panel-title-text-custom:hover, .panel-title-text-custom:focus {
+    color: inherit;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.panel-body-text-custom {
+    font-family: 'Noto Sans TC';
+}
+
+.panel-body-text-custom:hover {
+    background-color: #EDEDEF;
+    margin: 0;
+    padding: 0;
+
+}
+
