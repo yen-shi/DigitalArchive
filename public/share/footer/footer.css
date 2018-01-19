@@ -3,10 +3,34 @@
   background-color: #515356;
   font-family: SimSun, STSong;
   text-align: center;
-  color: #FFFFFF;
-  height: 200px;
+  height: 80px;
 }
 
-.contact {
-  line-height: 25px;
+.footer-contact {
+  display: flex;
+  position: relative;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  display: inline-block;
+  font-size: 25px;
+  color: #989898;
+  height: 30px;
+  width: 30px;
+}
+
+.footer-text {
+  display: inline-block;
+  color: #CECECE;
+  line-height: 18px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#footer-email {
+  color:inherit;
+  text-decoration: none;
 }
