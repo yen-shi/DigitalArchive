@@ -6,12 +6,14 @@
   height: 80px;
 }
 
+@import url(https://fonts.googleapis.com/earlyaccess/notosans.css);
 .footer-contact {
   display: flex;
   position: relative;
   height: 80px;
   justify-content: center;
   align-items: center;
+  font-family: 'Noto Sans';
 }
 
 @media (max-width:760px) {
