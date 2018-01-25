@@ -1,3 +1,8 @@
+@font-face {
+  font-family: NotoSerifCJKtc;
+  src: url(/static/fonts/NotoSerifCJKtc-Black.otf);
+}
+
 .panel {
     border: 0;
 }
@@ -8,6 +13,7 @@
     border-bottom-width: 1px;
     border-bottom: solid;
     border-bottom-color: #B7B7B7;
+    font-family: NotoSerifCJKtc;
 }
 
 .panel-title-custom:hover {
@@ -22,7 +28,7 @@
 
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 .panel-body-text-custom {
-    font-family: 'Noto Sans TC';
+    font-family: 'Noto Sans';
 }
 
 .panel-body-text-custom:hover {
