@@ -1,6 +1,6 @@
 const data = [
   {
-    "mainTitle": "得獎致詞 Acceptance Speeches",
+    "mainTitle": "得獎致詞 &nbsp; Acceptance Speeches",
     "mainList": [
       {
         "minorTitle": "得獎致詞 (待處理)",
@@ -20,7 +20,7 @@ const data = [
     ]
   },
   {
-    "mainTitle": "科普 Popular Science",
+    "mainTitle": "科普 &nbsp; Popular Science",
     "mainList": [
       {
         "minorTitle": "科普 (待處理)",
@@ -40,7 +40,7 @@ const data = [
     ]
   },
   {
-    "mainTitle": "研究或生涯回顧 Research and Career Review",
+    "mainTitle": "研究或生涯回顧 &nbsp; Research and Career Review",
     "mainList": [
       {
         "minorTitle": "研究或生涯回顧 (待處理)",
@@ -60,7 +60,7 @@ const data = [
     ]
   },
   {
-    "mainTitle": "專題演講 Speeches",
+    "mainTitle": "專題演講 &nbsp; Speeches",
     "mainList": [
       {
         "minorTitle": "國際會議演講",
@@ -81,7 +81,7 @@ const data = [
     ]
   },
   {
-    "mainTitle": "綜合性 Others",
+    "mainTitle": "綜合性 &nbsp; Others",
     "mainList": [
       {
         "minorTitle": "信號與人生",
@@ -132,7 +132,7 @@ const data = [
     ]
   },
   {
-    "mainTitle": "婚禮致詞 Wedding Speeches",
+    "mainTitle": "婚禮致詞 &nbsp; Wedding Speeches",
     "mainList": [
       {
         "minorTitle": "婚禮致詞 (待處理)",

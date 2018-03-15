@@ -1,6 +1,6 @@
 @font-face {
   font-family: NotoSerifCJKtc;
-  src: url(/static/fonts/NotoSerifCJKtc-Black.otf);
+  src: url(/Digital_Archive/public/fonts/NotoSerifCJKtc-Black.otf);
 }
 
 .panel {
@@ -16,6 +16,7 @@
     letter-spacing: 2px;
     color: #515356;
     font-family: NotoSerifCJKtc;
+    font-size: 30px;
 }
 
 .panel-title-custom:hover {
