@@ -211,7 +211,7 @@ function getSubPanel(object) {
 
 function getContentPanel(object) {
   ret = `
-    <div class="panel-body-text-custom">
+    <div class="panel-body-text-custom" onclick="getModal(this)">
       <h4 class="panel-body-text-title-custom">
         ${object['title']}
         ${getIcons(object['icon'])}
@@ -225,6 +225,25 @@ function getContentPanel(object) {
   return ret;
 }
 
+function getModal(dom) {
+  console.log('Click from: ', dom);
+  console.log('Click from: ', dom.innerHTML);
+  // Use dom id to request content of modal
+  modalBody = document.getElementsByClassName('modal-body')[0];
+  
+  modalBody.innerHTML = 
+    `<div class="panel-body-text-custom">
+      <h4 class="panel-body-text-title-custom">
+        ${dom.children[0].innerHTML}
+      </h4>
+      <p>
+        ${dom.children[1].innerHTML}
+      </p>
+      <hr class="divider" />
+    </div>
+    <iframe class="modal-movie" src="https://www.youtube.com/embed/NulBlWIhfaM?rel=0&amp;start=565" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+  $('#biographyModal').modal('show');
+}
 
 function getIcons(nameList) {
   var icon_string = {
