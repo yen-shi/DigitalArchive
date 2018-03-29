@@ -7,7 +7,7 @@ const data = [
         "minorList": [
           {
             "title": "text",
-            "icon": ["image", "video", "slide", "website"],
+            "icon": ["image", "video", "slide", "website", "audio"],
             "content": "content"
           },
           {
@@ -229,9 +229,10 @@ function getContentPanel(object) {
 function getIcons(nameList) {
   var icon_string = {
     'image': '<span class="glyphicon glyphicon-picture icon" aria-hidden="true"></span>',
+    'audio': '<span class="glyphicon glyphicon-headphones icon" aria-hidden="true"></span>',
     'video': '<span class="glyphicon glyphicon-facetime-video icon" aria-hidden="true"></span>',
-    'slide': '<span class="glyphicon glyphicon-picture icon" aria-hidden="true"></span>',
-    'website': '<span class="glyphicon glyphicon-facetime-video icon" aria-hidden="true"></span>'
+    'slide': '<span class="glyphicon glyphicon-blackboard icon" aria-hidden="true"></span>',
+    'website': '<span class="glyphicon glyphicon-globe icon" aria-hidden="true"></span>'
   };
   ret = '';
   for (let i = 0; i < nameList.length; i++) {
