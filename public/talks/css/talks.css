@@ -3,6 +3,10 @@
   src: url(/Digital_Archive/public/fonts/NotoSerifCJKtc-Black.otf);
 }
 
+.container-talks {
+    padding: 0px 55px;
+}
+
 .panel {
     border: 0;
 }
@@ -32,12 +36,23 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 .panel-body-text-custom {
     font-family: 'Noto Sans';
+    letter-spacing: 2px;
 }
 
 .panel-body-text-custom:hover {
     background-color: #EDEDEF;
     margin: 0;
     padding: 0;
+}
+
+.panel-body {
+    padding: 15px 35px;
+}
+
+.minor-title {
+    font-family: NotoSerifCJKtc;
+    letter-spacing: 3px;
+    color: #515356;
 }
 
 .icon {
@@ -56,3 +71,20 @@ h4.panel-body-text-title-custom {
     margin: 0px;
     line-height: 50px;
 }
+
+.content-title {
+    padding: 0px 5px;
+}
+
+.content-text {
+    padding: 0px 5px;
+}
+
+.modal-text-talks {
+    padding: 0px 50px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-family: serif;
+    text-align: justify;
+}
+

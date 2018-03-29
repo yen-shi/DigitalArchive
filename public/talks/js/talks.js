@@ -31,7 +31,7 @@ const data = [
             "content": "content"
           },
           {
-            "title": "科學月刊 李琳山：很多中文語音輸入產品都用到我的研究成果，但我沒賺到任何錢",
+            "title": "科學月刊 李琳山：很多中文語音輸入產品都用到我的研究成果",
             "icon": ["image", "video", "slide", "website"],
             "content": "content2"
           }
@@ -84,31 +84,41 @@ const data = [
     "mainTitle": "綜合性 &nbsp; Others",
     "mainList": [
       {
+        "minorTitle": "學海無涯",
+        "minorList": [
+          {
+            "title": "學海無涯（待補）",
+            "icon": ["image", "video", "slide", "website"],
+            "content": "content"
+          }
+        ]
+      },
+      {
         "minorTitle": "信號與人生",
         "minorList":
         [
           {
-            "title": "2016/06/24 信號與人生",
+            "title": "2016.06.24 信號與人生",
             "icon": ["image", "video", "slide", "website"],
             "content": "content"
           },
           {
-            "title": "2013/06/10 信號與人生",
+            "title": "2013.06.10 信號與人生",
             "icon": ["image", "video", "slide", "website"],
             "content": "content2"
           },
           {
-            "title": "2008/XX/XX 信號與人生",
+            "title": "2008.XX.XX 信號與人生",
             "icon": ["image", "video", "slide", "website"],
             "content": "content2"
           },
           {
-            "title": "2006/XX/XX 信號與人生",
+            "title": "2006.XX.XX 信號與人生",
             "icon": ["image", "video", "slide", "website"],
             "content": "content2"
           },
           {
-            "title": "2005/10/01 信號與人生",
+            "title": "2005.10.01 信號與人生",
             "icon": ["image", "video", "slide", "website"],
             "content": "content2"
           }
@@ -200,7 +210,7 @@ function getMainPanel(object) {
 function getSubPanel(object) {
   ret = '';
   for (let i = 0; i < object.length; i++) {
-    ret += `<h3> ${object[i]['minorTitle']} </h3>`;
+    ret += `<h3 class="minor-title"> ${object[i]['minorTitle']} </h3>`;
     ret += `<hr class="divider" />`;
     for (let j = 0; j < object[i]['minorList'].length; j++) {
       ret += getContentPanel(object[i]['minorList'][j]);
@@ -212,11 +222,11 @@ function getSubPanel(object) {
 function getContentPanel(object) {
   ret = `
     <div class="panel-body-text-custom" onclick="getModal(this)">
-      <h4 class="panel-body-text-title-custom">
+      <h4 class="panel-body-text-title-custom content-title">
         ${object['title']}
         ${getIcons(object['icon'])}
       </h4>
-      <p>
+      <p class="content-text">
         ${object['content']}
       </p>
       <hr class="divider" />
@@ -241,7 +251,22 @@ function getModal(dom) {
       </p>
       <hr class="divider" />
     </div>
-    <iframe class="modal-movie" src="https://www.youtube.com/embed/NulBlWIhfaM?rel=0&amp;start=565" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+    <iframe class="modal-movie" src="https://www.youtube.com/embed/NulBlWIhfaM?rel=0&amp;start=565" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <p class="modal-text-talks">李琳山教授在1979年中美斷交臺灣風雨飄搖之際放棄在美安定優裕之研究環
+境回國,在當時相當艱困的國內學術條件下打造在臺灣的研究基地,長期鑽研語音
+訊號之電腦處理三十餘年並開花結果。他的研究在國際學術界被高度肯定,並在諸
+多國際學術事務中擔任積極角色並有突出貢獻,有效提升臺灣在國際學術界之地
+位。他在臺大電機系及資訊系任教三十餘年,曾任臺大資訊系主任5年、中研院資
+訊所所長6年、臺大研發長3年、臺大電機資訊學院院長3年,任內對相關領域之學
+術教育及典章制度著有貢獻,培育學生無數,遍佈今日國內外學術界、產業界,包
+括不少領袖人物。李教授在研究上的傑出成就及貢獻略述如下:
+1. 早期對華語語音及語言處理之開拓性貢獻
+李教授為華語語音處理極少數拓荒者之一。他針對華語文之特有結構,探討在
+這些特有結構下更有效處理華語之方法;逐年發展出當時最領先之華語各項技術,
+建構出基礎技術體系。他針對華語所有單音作了最早最完整的電腦處理分析,也針
+對華語文句建立了最早最完整的電腦分析文法及剖析器,可分析非常複雜的文句;
+他首先建立系統化的華語韻律規則並用以合成語音訊號,今日韻律仍是華語語音合
+    </p>`;
   $('#biographyModal').modal('show');
 }
 
