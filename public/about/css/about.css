@@ -26,21 +26,6 @@
   text-decoration: none;
 }
 
-.modal-dialog {
-  width: 80%;
-}
-
-.modal-close {
-  position: fixed;
-  z-index: 1;
-  top: 3px;
-  right: 8px;
-}
-
-.modal-body {
-  font-size: 18px;
-}
-
 #header-chinese {
   font-size: 26px;
 }
