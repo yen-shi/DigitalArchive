@@ -1,3 +1,15 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.modal-title {
+    font-family: 'Noto Sans';
+    letter-spacing: 2px;
+}
+
+h4.modal-subtitle {
+  margin: 0px;
+  line-height: 50px;
+}
+
 .modal-dialog {
   width: 80%;
 }
@@ -17,8 +29,40 @@
 .modal-movie {
   width: 70%;
   height: 40vw;
-  margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 25px;
+  margin: 25px auto;
   display: block;
+}
+
+.modal-slides {
+  width: 70%;
+  height: 40vw;
+  margin: 25px auto;
+  display: block;
+}
+
+.modal-images {
+  width: 70%;
+  height: 40vw;
+  margin: 25px auto;
+  display: block;
+}
+
+.modal-text {
+  padding: 0px 50px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  font-family: serif;
+  text-align: justify;
+}
+
+.modal-cite {
+  padding: 0px 50px;
+  line-height: 1.8;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: serif;
+  text-align: justify;
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
