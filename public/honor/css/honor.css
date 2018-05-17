@@ -1,5 +1,8 @@
 .honor-container {
-
+  background-content: #e5e5e5;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .honor-list-year {
@@ -25,4 +28,19 @@
   text-align: justify;
   color: #000000;
   opacity: 0.5;
+}
+
+.honor-year {
+  width: 100%;
+  border-top: 1px solid rgb(192, 192, 194);
+  line-height: 10px;
+  margin: 15px 0 20px;
+}
+
+.honor-year span {
+  font-family: serif;
+  font-size: 35px;
+  letter-spacing: 6px;
+  color: rgba(155, 143, 128, 0.5);
+  padding-left: 50px;
 }
