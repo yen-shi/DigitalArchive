@@ -4,25 +4,26 @@
   margin: 0px;
   padding: 0px;
   border: 10px solid #e5e5e5; 
-}
+}  
 
 .honor-list-font {
   padding-left: 20%;
   letter-spacing: 1px;
   font-family: serif;
-  font-size: 20px;
   font-weight: bold;
   text-align: justify;
   line-height: 0.8;
 }
 
 .honor-list-year {
-  padding-top: 20px;
+  padding-top: 10px;
+  font-size: 20px;
   color: #9b8f80;
 }
 
 .honor-list-title {
   padding-bottom: 10px;
+  font-size: 18px;
   color: #000000;
   opacity: 0.5;
 }
