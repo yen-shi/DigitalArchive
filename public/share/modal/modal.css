@@ -67,6 +67,15 @@ h4.modal-subtitle {
   margin-bottom: 50px;
 }
 
+.modal-caption {
+  padding: 0px 50px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  font-family: serif;
+  text-align: center;
+  font-style: italic;
+}
+
 @media (max-width:640px) {
   .modal-dialog {
     width: 100%;
