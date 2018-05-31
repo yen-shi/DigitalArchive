@@ -6,40 +6,47 @@
   border: 10px solid #e5e5e5; 
 }  
 
-.honor-list-font {
-  padding-left: 20%;
-  letter-spacing: 1px;
-  font-family: serif;
-  font-weight: bold;
-  text-align: justify;
-  line-height: 0.8;
-}
-
-.honor-list-year {
-  padding-top: 10px;
-  font-size: 20px;
-  color: #9b8f80;
-}
-
-.honor-list-title {
-  padding-bottom: 10px;
-  font-size: 18px;
-  color: #000000;
-  opacity: 0.5;
-}
-
 .honor-year {
   width: 100%;
   border-top: 1px solid rgb(192, 192, 194);
   line-height: 10px;
   margin: 40px 0 10px;
+  font-weight: bold;
 }
 
 .honor-year span {
   font-family: serif;
-  font-size: 35px;
+  font-size: 38px;
   letter-spacing: 6px;
   color: rgba(155, 143, 128, 0.5);
   padding-left: 50px;
 }
 
+.honor-list-year {
+  padding-top: 10px;
+  font-size: 24px;
+  color: #9b8f80;
+}
+
+.honor-list-title {
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #000000;
+  opacity: 0.75;
+}
+
+.honor-list-font {
+  padding-left: 18%;
+  letter-spacing: 1px;
+  font-family: serif;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1;
+}
+
+@media (max-width:640px) {
+  .honor-list-font {
+    padding-left: 5%;
+    margin: 5px 25px;
+  }
+}
