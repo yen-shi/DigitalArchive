@@ -1,3 +1,10 @@
+@font-face {
+  font-family: NotoSerifCJKtc;
+  src: url(/Digital_Archive/public/fonts/NotoSerifCJKtc-Black.otf);
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 .honor-container {
   background-color: #e5e5e5;
   width: 100%;
@@ -53,4 +60,19 @@
     padding-left: 5%;
     margin: 5px 25px;
   }
+}
+
+.highlight-title {
+  font-family: NotoSerifCJKtc;
+  letter-spacing: 10px;
+  font-size: 40px;
+  color: #434343;
+}
+
+.highlight-contect {
+  font-family: Noto Sans;
+  letter-spacing: 5px;
+  line-height: 170%;
+  font-size: 18px;
+  color: #434343;
 }
