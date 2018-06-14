@@ -69,10 +69,27 @@
   color: #434343;
 }
 
-.highlight-contect {
+.highlight-content {
   font-family: Noto Sans;
   letter-spacing: 5px;
   line-height: 170%;
   font-size: 18px;
   color: #434343;
+}
+
+.highlight-year {
+  font-family: NotoSerifCJKtc;
+  letter-spacing: 20px;
+  width: 48%;
+  border-top: 2px solid rgb(172, 172, 172);
+  line-height: 3px;
+  margin: 40px 0 10px;
+  font-weight: bold;
+  font-size: 57px;
+  color: #BBB5B1;
+  z-index: 0; 
+}
+
+.highlight-img {
+  z-index: 300;
 }
