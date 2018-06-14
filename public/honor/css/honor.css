@@ -55,13 +55,6 @@
   line-height: 1;
 }
 
-@media (max-width:640px) {
-  .honor-list-font {
-    padding-left: 5%;
-    margin: 5px 25px;
-  }
-}
-
 .highlight-title {
   font-family: NotoSerifCJKtc;
   letter-spacing: 10px;
@@ -92,3 +85,25 @@
 .highlight-img {
   z-index: 300;
 }
+
+@media (max-width:640px) {
+  .honor-list-font {
+    padding-left: 5%;
+    margin: 5px 25px;
+  }
+}
+
+@media (max-width:1200px) {
+  .highlight-title {
+    font-size: 32px;
+  }
+
+  .highlight-content {
+    font-size: 15px;
+  }
+
+  .highlight-year {
+    font-size: 43px;
+  }
+}
+
