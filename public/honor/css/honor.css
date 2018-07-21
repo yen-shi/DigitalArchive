@@ -62,12 +62,32 @@
   color: #434343;
 }
 
+.highlight-title-english {
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+.highlight-title-small {
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
 .highlight-content {
   font-family: Noto Sans;
   letter-spacing: 5px;
   line-height: 170%;
   font-size: 18px;
-  color: #434343;
+  color: #707070;
+}
+
+.highlight-content-english {
+  font-family: NotoSerifCJKtc;
+  letter-spacing: 3px;
+}
+
+.highlight-content-small {
+  letter-spacing: 2px;
+  font-size: 14px;
 }
 
 .highlight-year {
@@ -80,6 +100,11 @@
   font-size: 57px;
   color: #BBB5B1;
   z-index: 0; 
+}
+
+.highlight-year-small {
+  letter-spacing: 5px;
+  font-size: 34px;
 }
 
 .highlight-img {
@@ -98,12 +123,34 @@
     font-size: 32px;
   }
 
+  .highlight-title-small {
+    font-size: 20px;
+  }
+
+  .highlight-title-english {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+
   .highlight-content {
     font-size: 15px;
   }
 
+  .highlight-content-english {
+    letter-spacing: 3px;
+  }
+
+  .highlight-content-small {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+
   .highlight-year {
     font-size: 43px;
+  }
+
+  .highlight-year-small {
+    font-size: 28px;
   }
 }
 
