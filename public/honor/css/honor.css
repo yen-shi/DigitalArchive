@@ -34,13 +34,13 @@
 }
 
 .honor-list-year {
-  padding-top: 10px;
+  padding-top: 8px;
   font-size: 24px;
   color: #9b8f80;
 }
 
 .honor-list-title {
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   font-size: 20px;
   color: #000000;
   opacity: 0.75;
@@ -54,6 +54,62 @@
   text-align: justify;
   line-height: 1;
 }
+
+.honor-list-year::after {
+  display: inline-block;
+  margin: 3px 3px 3px 10px;
+  width: 26px;
+  height: 26px;
+  background-size: 26px 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+.honor-list-school, .honor-list-national, .honor-list-global {
+  display: flex;
+  line-height: 32px;
+}
+
+.honor-list-school::after { background-image: url('/Digital_Archive/public/honor/img/school.png'); }
+.honor-list-national::after { background-image: url('/Digital_Archive/public/honor/img/national.png'); }
+.honor-list-global::after { background-image: url('/Digital_Archive/public/honor/img/global.png'); }
+
+.slection-button {
+  display: inline-flex;
+  float: right;
+  margin-top: 10px;
+  padding-right: 25px;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.honor-button-text {
+  display: flex;
+  line-height: 42px;
+}
+.honor-button-text:hover {
+  color: #CCAD80;
+}
+.honor-button-text::before {
+  display: inline-block;
+  margin: 5px 10px;
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+#icon-school::before { background-image: url('/Digital_Archive/public/honor/img/school.png'); }
+#icon-school:hover::before { background-image: url('/Digital_Archive/public/honor/img/school-hover.png'); }
+#icon-national::before { background-image: url('/Digital_Archive/public/honor/img/national.png'); }
+#icon-national:hover::before { background-image: url('/Digital_Archive/public/honor/img/national-hover.png'); }
+#icon-global::before { background-image: url('/Digital_Archive/public/honor/img/global.png'); }
+#icon-global:hover::before { background-image: url('/Digital_Archive/public/honor/img/global-hover.png'); }
 
 .highlight-title {
   font-family: NotoSerifCJKtc;
