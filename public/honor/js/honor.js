@@ -24,7 +24,7 @@ timedata = [
   { 'type': 'national', 'content': ['2013', '台灣大學服務傑出獎']},
   { 'type': 'global', 'content': ['2014', 'Exemplary Global Service Award, IEEE Communication Society']},
   { 'type': 'national', 'content': ['2015', '總統科學獎']},
-  { 'type': 'national', 'content': ['2016', '中研院工程科學組第一屆院士']}
+  { 'type': 'national', 'content': ['2016', '中央研究院工程科學組第一屆院士']}
 ];
 
 const createElementFromHTML = (htmlString) => {
@@ -50,7 +50,11 @@ function createTimeLine(arr, type) {
     }
     else if (type == 'all' || e['type'] == type) {
       year = createElementFromHTML(`<p class="honor-list-year honor-list-font honor-list-${e['type']}">${e['content'][0]}</p>`);
-      line = createElementFromHTML(`<p class="honor-list-title honor-list-font">${e['content'][1]}</p>`);
+      line = createElementFromHTML(
+        `<p class="honor-list-title honor-list-font"
+            onclick="getModal(this.previousElementSibling.innerHTML, this.innerHTML)">
+          ${e['content'][1]}
+        </p>`);
       honorContent.appendChild(year);
       honorContent.appendChild(line);
     }
@@ -70,7 +74,7 @@ modalContents = {
   <p class="modal-caption">Figure 1 - 總統科學獎獎杯</p>
   <img class="modal-images-w" src="/Digital_Archive/public/honor/img/2015_President_2.jpg"></img>
   <p class="modal-caption">Figure 2 - 總統科學獎獎狀</p>`,
-  '中央研究院院士': `<h4 class="modal-text-title">慶賀李琳山教授榮任中研院工程組第一屆唯一國內院士</h4>
+  '中央研究院工程科學組第一屆院士': `<h4 class="modal-text-title">慶賀李琳山教授榮任中研院工程組第一屆唯一國內院士</h4>
   <img class="modal-images-w" src="/Digital_Archive/public/honor/img/2016_Academic_Sinica_1.png"></img>
   <p class="modal-caption">Figure 1 - 台大網站首頁校訊</p>
   <p class="modal-text">在七月初的中研院院士會議中，選出了工程科學組第一屆共6位院士。本校電資學院李琳山教授為6人之中唯一長期在國內耕耘獲致肯定者，其他5位當選人均為海外學者。李教授亦為今日本校工程領域專任教授中唯一榮任中研院院士者。電資學院師生聞訊莫不奔走相告額手稱慶，乃在8月1日舉辦慶賀活動。楊校長親臨致賀，並表示電資學院強將如雲，期待未來有更多人獲國內外各項肯定。李嗣涔前校長亦親臨致賀，並提到李琳山教授在研發會主委任內所完成的臺大第一期邁頂計畫書為臺大邁向頂尖大學描繪出最早的基礎藍圖。李琳山教授希望把所有成果及榮譽歸給過去三十七年來電資學院共兩百多位碩博士生，以及教這些學生各種學問使他們能作最好的研究的全體老師，「這項榮譽是大家的，謝謝大家」。</p>
@@ -87,9 +91,9 @@ modalContents = {
 
 function getModelTitle(str) {
   return `<div class="modal-title">
-      <h2 class="modal-subtitle">
+      <h3 class="modal-subtitle">
         ${ str }
-      </h2>
+      </h3>
       <hr class="divider" />
     </div>
     <br>`;
@@ -103,11 +107,11 @@ if(typeof(String.prototype.trim) === "undefined")
   };
 }
 
-function getModal(dom) {
+function getModal(year, name) {
   modalBody = document.getElementsByClassName('modal-body')[0];
-  var title = dom.previousElementSibling.children[0].innerHTML +
-              dom.nextElementSibling.innerHTML;
-  modalBody.innerHTML = getModelTitle(title) + modalContents[dom.nextElementSibling.innerHTML.trim()];
+  var title = '&nbsp;&nbsp;' + year.trim() + '&nbsp;' + name;
+  modalBody.innerHTML = getModelTitle(title) + //modalContents[name.trim()];
+                        (modalContents.hasOwnProperty(name.trim()) ? modalContents[name.trim()] : '');
   $('#biographyModal').modal('show');
 }
 
