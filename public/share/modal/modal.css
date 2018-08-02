@@ -58,13 +58,14 @@ h4.modal-subtitle {
   text-align: center;
   margin: 0px;
   line-height: 60px;
-  //font-family: 'Noto Sans';
   font-family: serif;
   letter-spacing: 2px;
   font-size: 28px;
 }
 
 .modal-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 0px 50px;
   line-height: 1.8;
   letter-spacing: 1px;

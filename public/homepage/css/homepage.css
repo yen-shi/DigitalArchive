@@ -1,3 +1,39 @@
+@font-face {
+  font-family: NotoSerifTC-SemiBold;
+  src: url(/Digital_Archive/public/fonts/NotoSerifTC-SemiBold.otf);
+}
+
 body {
   height: 100%;
+}
+
+.homepage-black-section {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: NotoSerifTC-SemiBold;
+  text-align: center;
+  font-size: 15px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 36px;
+  letter-spacing: 3px;
+}
+
+.homepage-gray-section {
+  background-color: #EDEDEF;
+  height: 1000px;
+  margin: 0% 2% 200px 2%;
+  position: relative;
+}
+
+.homepage-background {
+  width: 100%;
+}
+
+@media (max-width:1000px) {
+  .homepage-black-section {
+    font-size: 10px;
+  }
 }
