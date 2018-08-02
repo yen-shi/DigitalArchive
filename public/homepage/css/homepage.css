@@ -3,6 +3,11 @@
   src: url(/Digital_Archive/public/fonts/NotoSerifTC-SemiBold.otf);
 }
 
+@font-face {
+  font-family: NotoSerifCJKtc;
+  src: url(/Digital_Archive/public/fonts/NotoSerifCJKtc-Black.otf);
+}
+
 body {
   height: 100%;
 }
@@ -21,15 +26,46 @@ body {
   letter-spacing: 3px;
 }
 
-.homepage-gray-section {
+.highlight-img {
+  z-index: 300;
+  cursor: pointer;
+}
+
+.homepage-gray-section-1 {
   background-color: #EDEDEF;
-  height: 1000px;
-  margin: 0% 2% 200px 2%;
+  height: 2000px;
+  margin: 0% 2% 0% 2%;
   position: relative;
 }
 
-.homepage-background {
+.homepage-gray-section-2 {
+  background-color: #EDEDEF;
+  color: #000000;
+  height: 90px;
+  font-family: NotoSerifCJKtc;
+  text-align: center;
+  margin: 0% 2% 0% 2%;
+  position: relative;
+  font-size: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 70px;
+  letter-spacing: 8px;
+  padding: 0%;
+}
+
+.homepage-fullwidth-line {
   width: 100%;
+  border-top: 1px solid rgb(192, 192, 194);
+  line-height: 0px;
+}
+
+.homepage-gray-section-3 {
+  background-color: #EDEDEF;
+  height: 425px;
+  margin: 0% 2% 0% 2%;
+  position: relative;
 }
 
 @media (max-width:1000px) {
