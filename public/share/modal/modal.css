@@ -40,10 +40,28 @@ h4.modal-subtitle {
   display: block;
 }
 
-.modal-images {
+.modal-images-w {
   width: 70%;
   margin: 25px auto;
   display: block;
+  image-orientation: from-image;
+}
+
+.modal-images-h {
+  height: 40vw;
+  margin: 25px auto;
+  display: block;
+  image-orientation: from-image;
+}
+
+.modal-text-title {
+  text-align: center;
+  margin: 0px;
+  line-height: 60px;
+  //font-family: 'Noto Sans';
+  font-family: serif;
+  letter-spacing: 2px;
+  font-size: 28px;
 }
 
 .modal-text {
