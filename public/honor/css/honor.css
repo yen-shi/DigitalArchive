@@ -167,6 +167,10 @@
   z-index: 300;
 }
 
+.detail-button {
+  display: inline-block;
+}
+
 @media (max-width:640px) {
   .honor-list-font {
     padding-left: 5%;

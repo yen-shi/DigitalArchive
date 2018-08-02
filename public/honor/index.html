@@ -8,6 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/Digital_Archive/public/honor/css/honor.css">
     <link rel="stylesheet" type="text/css" href="/Digital_Archive/public/share/navbar/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/Digital_Archive/public/share/modal/modal.css">
     <link rel="stylesheet" type="text/css" href="/Digital_Archive/public/share/footer/footer.css">
     <link rel="stylesheet" type="text/css" href="/Digital_Archive/public/share/background/background.css">
   </head>
@@ -18,6 +19,7 @@
     </div>
     <!-- Section 1 -->
     <div class="container background" style="margin: 0px; position: relative">
+      <div class="modal fade" id="biographyModal" tabindex="-1" role="dialog" aria-labelledby="customModal" aria-hidden="true"></div>
       <img src="/Digital_Archive/public/honor/img/bkg1.png"
            class="honor-background backgroundImg img-responsive"
            alt="Talks image">
@@ -37,11 +39,10 @@
            style="position: absolute; top: 17.8%; left: 75.8%;">
            總統科學獎
         </p>
-      </div>
-      <div class="text-wrap">
         <p class="highlight-content"
            style="position: absolute; top: 27%; left: 63%; right: 7%;">
            李琳山教授在一九七九年中美斷交台灣風雨飄移之際放棄在美安定優裕之研究環境回國，在當時相當艱困的國內學術條件下打造台灣的研究基地，長期鑽研語音訊號之電腦處理三十餘年並開花結果。他的研究在國際學術界被高度肯定，並在諸多國際學術事務中擔任積極角色並有突出貢獻。
+          <a class="detail-button" onclick="getModal(this.parentElement)"> more details...</a>
         </p>
       </div>
       <div class="class-wrap">
@@ -305,6 +306,7 @@
     <nav id="footerMenu" class="navbar navbar-default footer-custom"></nav>
     <script src="/Digital_Archive/public/share/navbar/navScript.js"></script>
     <script src="/Digital_Archive/public/share/footer/footScript.js"></script>
+    <script src="/Digital_Archive/public/share/modal/modal.js"></script>
     <script src="/Digital_Archive/public/honor/js/honor.js"></script>
   </body>
 </html>
