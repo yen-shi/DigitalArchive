@@ -87,14 +87,14 @@
 
 .honor-button-text {
   display: flex;
-  line-height: 42px;
+  line-height: 32px;
 }
 .honor-button-text:hover {
   color: #CCAD80;
 }
 .honor-button-text::before {
   display: inline-block;
-  margin: 5px 10px;
+  margin: 0px 10px;
   width: 32px;
   height: 32px;
   background-size: 32px 32px;
