@@ -12,6 +12,11 @@ body {
   height: 100%;
 }
 
+.homepage-ratio {
+  width: 100%;
+  padding-bottom: 75%;
+}
+
 .homepage-black-section {
   background-color: #000000;
   color: #FFFFFF;
