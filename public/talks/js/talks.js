@@ -3,7 +3,7 @@ const data = [
     "mainTitle": "得獎致詞 &nbsp; Acceptance Speeches",
     "mainList": [
       {
-        "minorTitle": "得獎致詞 (待處理)",
+        "minorTitle": "得獎致詞小標",
         "minorList": [
           {
             "title": "text",
@@ -23,7 +23,7 @@ const data = [
     "mainTitle": "科普 &nbsp; Popular Science",
     "mainList": [
       {
-        "minorTitle": "科普 (待處理)",
+        "minorTitle": "科普小標",
         "minorList": [
           {
             "title": "跨領域餐會開場致詞-芝麻開門-語音技術的前世今生",
@@ -43,7 +43,7 @@ const data = [
     "mainTitle": "研究或生涯回顧 &nbsp; Research and Career Review",
     "mainList": [
       {
-        "minorTitle": "研究或生涯回顧 (待處理)",
+        "minorTitle": "研究或生涯回顧小標",
         "minorList": [
           {
             "title": "text",
@@ -145,7 +145,7 @@ const data = [
     "mainTitle": "婚禮致詞 &nbsp; Wedding Speeches",
     "mainList": [
       {
-        "minorTitle": "婚禮致詞 (待處理)",
+        "minorTitle": "婚禮致詞小標",
         "minorList": [
           {
             "title": "2016.01.09 盧彥廷 王雅婷婚禮致詞",
