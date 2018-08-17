@@ -29,7 +29,7 @@ body {
   color: #FFFFFF;
   font-family: NotoSerifTC-SemiBold;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,11 +140,14 @@ body {
   .highlight-title {
     font-size: 28px;
   }
+  .homepage-black-section {
+    font-size: 15px;
+  }
 }
 
 @media (max-width:1000px) {
   .homepage-black-section {
-    font-size: 10px;
+    font-size: 12px;
   }
   .homepage-gray-section-2 {
     font-size: 30px;
