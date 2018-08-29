@@ -81,9 +81,9 @@
   line-height: 32px;
 }
 
-.honor-list-school::after { background-image: url('/DigitalArchive/public/honor/img/school.png'); }
-.honor-list-national::after { background-image: url('/DigitalArchive/public/honor/img/national.png'); }
-.honor-list-global::after { background-image: url('/DigitalArchive/public/honor/img/global.png'); }
+.honor-list-school::after { background-image: url('/DigitalArchive/public/honor/img/school.jpg'); }
+.honor-list-national::after { background-image: url('/DigitalArchive/public/honor/img/national.jpg'); }
+.honor-list-global::after { background-image: url('/DigitalArchive/public/honor/img/global.jpg'); }
 
 .slection-button {
   display: inline-flex;
@@ -114,12 +114,12 @@
   content: "";
 }
 
-#icon-school::before { background-image: url('/DigitalArchive/public/honor/img/school.png'); }
-#icon-school:hover::before { background-image: url('/DigitalArchive/public/honor/img/school-hover.png'); }
-#icon-national::before { background-image: url('/DigitalArchive/public/honor/img/national.png'); }
-#icon-national:hover::before { background-image: url('/DigitalArchive/public/honor/img/national-hover.png'); }
-#icon-global::before { background-image: url('/DigitalArchive/public/honor/img/global.png'); }
-#icon-global:hover::before { background-image: url('/DigitalArchive/public/honor/img/global-hover.png'); }
+#icon-school::before { background-image: url('/DigitalArchive/public/honor/img/school.jpg'); }
+#icon-school:hover::before { background-image: url('/DigitalArchive/public/honor/img/school-hover.jpg'); }
+#icon-national::before { background-image: url('/DigitalArchive/public/honor/img/national.jpg'); }
+#icon-national:hover::before { background-image: url('/DigitalArchive/public/honor/img/national-hover.jpg'); }
+#icon-global::before { background-image: url('/DigitalArchive/public/honor/img/global.jpg'); }
+#icon-global:hover::before { background-image: url('/DigitalArchive/public/honor/img/global-hover.jpg'); }
 
 .highlight-title {
   font-family: WeiBei, NotoSerifTC;
