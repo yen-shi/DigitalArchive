@@ -203,7 +203,7 @@
   vertical-align: middle;
   font-size: 36px;
   letter-spacing: 5px;
-  font-family: WeiBei, NotoSerifTC;
+  font-family: WeiBei;/* , NotoSerifTC; */
 }
 .img-hover-wrapper span {
   display: inline-block;
