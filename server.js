@@ -3,7 +3,7 @@ const app  = express();
 const http = require('http').Server(app);
 const path = require('path')
 
-app.use('/Digital_Archive/public', express.static(path.join(__dirname, 'public')));
+app.use('/DigitalArchive/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'public/homepage/index.html'));

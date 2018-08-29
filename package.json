@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny8508021/Digital_Archive.git"
+    "url": "git+https://github.com/danny8508021/DigitalArchive.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny8508021/Digital_Archive/issues"
+    "url": "https://github.com/danny8508021/DigitalArchive/issues"
   },
-  "homepage": "https://github.com/danny8508021/Digital_Archive#readme"
+  "homepage": "https://github.com/danny8508021/DigitalArchive#readme"
 }

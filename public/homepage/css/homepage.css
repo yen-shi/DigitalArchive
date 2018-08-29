@@ -1,20 +1,20 @@
 @font-face {
   font-family: NotoSerifTC-SemiBold;
-  src: url(/Digital_Archive/public/fonts/NotoSerifTC-SemiBold.otf);
+  src: url(/DigitalArchive/public/fonts/NotoSerifTC-SemiBold.otf);
 }
 
 @font-face {
   font-family: NotoSerifCJKtc;
-  src: url(/Digital_Archive/public/fonts/NotoSerifCJKtc-Black.otf);
+  src: url(/DigitalArchive/public/fonts/NotoSerifCJKtc-Black.otf);
 }
 
 @font-face {
   font-family: WeiBei;
-  src: url('/Digital_Archive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot'); /* IE9 Compat Modes */
-  src: url('/Digital_Archive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/Digital_Archive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff') format('woff'), /* Modern Browsers */
-       url('/Digital_Archive/public/fonts/DFWeiBei-W7-WIN-BF-01.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/Digital_Archive/public/fonts/DFWeiBei-W7-WIN-BF-01.svg#DFWeiBeiB5-Regular') format('svg'); /* Legacy iOS */
+  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot'); /* IE9 Compat Modes */
+  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff') format('woff'), /* Modern Browsers */
+       url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.svg#DFWeiBeiB5-Regular') format('svg'); /* Legacy iOS */
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
