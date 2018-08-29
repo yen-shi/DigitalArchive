@@ -1,21 +1,37 @@
+@font-face {
+  font-family: NotoSerifCJKtc;
+  src: url(/DigitalArchive/public/fonts/NotoSerifCJKtc-Black.otf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
 .card {
   padding: 20px;
 }
 
 .content-header {
-  height: 125px;
+  height: 100px;
   padding-top: 30px;
   border-bottom: 2px rgb(171, 171, 171) solid;
   text-align: center;
-  font-size: 10px;
-  font-weight: bold;
-  font-family: SimSun, STSong;
+  font-size: 35px;
+  letter-spacing: 7px;
+  font-family: NotoSerifCJKtc;
 }
 
-.content {
+.content-chinese {
   padding-top: 20px;
   padding-bottom: 50px;
   font-size: 18px;
+  letter-spacing: 5px;
+}
+
+.content-english {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .detail-button {

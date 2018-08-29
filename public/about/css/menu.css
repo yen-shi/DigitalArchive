@@ -1,3 +1,8 @@
+@font-face {
+  font-family: NotoSerifCJKtc;
+  src: url(/DigitalArchive/public/fonts/NotoSerifCJKtc-Black.otf);
+}
+
 .menu-bar {
   position: relative;
   margin-top: 20px;
@@ -8,12 +13,12 @@
   height: 80px;
   justify-content: center;
   align-items: center;
-  border-left: 2px rgb(171, 171, 171) solid;
+  border-left: 1.5px rgb(171, 171, 171) solid;
   cursor: pointer;
 }
 
 .menu-right {
-  border-right: 2px rgb(171, 171, 171) solid;
+  border-right: 1.5px rgb(171, 171, 171) solid;
 }
 
 .menu div {
@@ -29,12 +34,14 @@
 
 #menu-chinese {
   font-size: 26px;
+  font-family: NotoSerifCJKtc;
 }
 
 #menu-english {
   line-height: 30px;
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-family: NotoSerifCJKtc;
 }
 
 @media (max-width:640px) {
