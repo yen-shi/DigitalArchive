@@ -4,20 +4,13 @@
 }
 
 @font-face {
-  font-family: NotoSerifCJKtc;
-  src: url(/DigitalArchive/public/fonts/NotoSerifCJKtc-Black.otf);
+  font-family: NotoSerifTC;
+  src: url(/DigitalArchive/public/fonts/NotoSerifTC-Black.otf);
 }
 
 @font-face {
   font-family: WeiBei;
-  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot'); /* IE9 Compat Modes */
-  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff') format('woff'), /* Modern Browsers */
-       url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.svg#DFWeiBeiB5-Regular') format('svg'); /* Legacy iOS */
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff');
 }
 
 body {
@@ -54,7 +47,7 @@ body {
 }
 
 .highlight-title {
-  font-family: WeiBei, NotoSerifCJKtc;
+  font-family: WeiBei, NotoSerifTC;
   letter-spacing: 10px;
   font-size: 32px;
   color: #434343;
@@ -85,7 +78,7 @@ body {
   color: #000000;
   width: 96vw;
   height: 6vw;
-  font-family: NotoSerifCJKtc;
+  font-family: NotoSerifTC;
   text-align: center;
   margin: 0% 2% 0% 2%;
   position: relative;

@@ -1,19 +1,11 @@
 @font-face {
-  font-family: NotoSerifCJKtc;
-  src: url(/DigitalArchive/public/fonts/NotoSerifCJKtc-Black.otf);
+  font-family: NotoSerifTC;
+  src: url(/DigitalArchive/public/fonts/NotoSerifTC-Black.otf);
 }
 
-/* Webfont: DFWeiBeiB5-Regular */
 @font-face {
-    font-family: 'WeiBei';
-    src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot'); /* IE9 Compat Modes */
-    src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff') format('woff'), /* Modern Browsers */
-         url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.svg#DFWeiBeiB5-Regular') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
+  font-family: WeiBei;
+  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff');
 }
 
 .container-talks {
@@ -32,7 +24,7 @@
     border-bottom-color: #B7B7B7;
     letter-spacing: 2px;
     color: #515356;
-    font-family: WeiBei, NotoSerifCJKtc;
+    font-family: WeiBei, NotoSerifTC;
     font-size: 30px;
 }
 
@@ -63,7 +55,7 @@
 }
 
 .minor-title {
-    font-family: NotoSerifCJKtc;
+    font-family: NotoSerifTC;
     letter-spacing: 3px;
     color: #515356;
 }

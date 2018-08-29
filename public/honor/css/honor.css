@@ -1,20 +1,13 @@
 @font-face {
-  font-family: NotoSerifCJKtc;
-  src: url(/DigitalArchive/public/fonts/NotoSerifCJKtc-Black.otf);
+  font-family: NotoSerifTC;
+  src: url(/DigitalArchive/public/fonts/NotoSerifTC-Black.otf);
 }
 
-/* Webfont: DFWeiBeiB5-Regular */
 @font-face {
-    font-family: 'WeiBei';
-    src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot'); /* IE9 Compat Modes */
-    src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff') format('woff'), /* Modern Browsers */
-         url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.svg#DFWeiBeiB5-Regular') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
+  font-family: WeiBei;
+  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff');
 }
+
 
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
@@ -129,7 +122,7 @@
 #icon-global:hover::before { background-image: url('/DigitalArchive/public/honor/img/global-hover.png'); }
 
 .highlight-title {
-  font-family: WeiBei, NotoSerifCJKtc;
+  font-family: WeiBei, NotoSerifTC;
   letter-spacing: 10px;
   font-size: 40px;
   color: #434343;
@@ -154,7 +147,7 @@
 }
 
 .highlight-content-english {
-  font-family: NotoSerifCJKtc;
+  font-family: NotoSerifTC;
   letter-spacing: 3px;
 }
 
@@ -210,7 +203,7 @@
   vertical-align: middle;
   font-size: 36px;
   letter-spacing: 5px;
-  font-family: WeiBei, NotoSerifCJKtc;
+  font-family: WeiBei, NotoSerifTC;
 }
 .img-hover-wrapper span {
   display: inline-block;
@@ -236,6 +229,9 @@
   .honor-list-font {
     padding-left: 5%;
     margin: 5px 25px;
+  }
+  .img-hover-text {
+    font-size: 26px;
   }
 }
 
@@ -271,6 +267,10 @@
   }
 
   .highlight-year-small {
+    font-size: 28px;
+  }
+
+  .img-hover-text {
     font-size: 28px;
   }
 }
