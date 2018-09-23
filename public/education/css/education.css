@@ -1,95 +1,140 @@
 @font-face {
-    font-family: NotoSerifTC-SemiBold;
-    src: url(/DigitalArchive/public/fonts/NotoSerifTC-SemiBold.otf);
-  }
-  
-  @font-face {
-    font-family: NotoSerifTC;
-    src: url(/DigitalArchive/public/fonts/NotoSerifTC-Black.otf);
-  }
-  
-  @font-face {
-    font-family: WeiBei;
-    src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff');
-  }
-  
-  body {
-    height: 100%;
-  }
+  font-family: NotoSerifTC-SemiBold;
+  src: url(/DigitalArchive/public/fonts/NotoSerifTC-SemiBold.otf);
+}
 
-  .main-section {
-    background-color: #FFFFFF;
-    width: 100vw;
-    height: 100vw;
-    position: relative;
-  }
-  
-  .thumbnail-image {
-    z-index: 300;
-    cursor: pointer;
-    box-shadow: 23px 23px #958980;
-    position: absolute;
-    width: 30%;
-    left: 10%;
-  }
-  
+@font-face {
+  font-family: NotoSerifTC;
+  src: url(/DigitalArchive/public/fonts/NotoSerifTC-Black.otf);
+}
+
+@font-face {
+  font-family: WeiBei;
+  src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff');
+}
+
+body {
+  height: 100%;
+}
+
+.main-section {
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 100vw;
+  position: relative;
+}
+
+.thumbnail-image {
+  z-index: 300;
+  cursor: pointer;
+  box-shadow: 23px 23px #958980;
+  position: absolute;
+  width: 30%;
+  left: 10%;
+}
+
+.thumbnail-title {
+  font-family: WeiBei, NotoSerifTC;
+  letter-spacing: 10px;
+  font-size: 32px;
+  color: #434343;
+  right: 7%;
+  position: absolute;
+}
+
+.thumbnail-content {
+  font-family: Noto Sans;
+  letter-spacing: 5px;
+  line-height: 170%;
+  font-size: 16px;
+  color: #707070;
+  right: 13%;
+  left: 45%;
+  position: absolute;
+}
+
+.thumbnail-arrow {
+  font-family: Noto Sans;
+  letter-spacing: 5px;
+  line-height: 170%;
+  font-size: 16px;
+  color: #707070;
+  right: 7%;
+  left: 84%;
+  position: absolute;
+}
+
+.thumbnail-arrow:hover {
+  color: #9B8F81;
+  cursor: pointer;
+}
+
+.thumbnail-line {
+  width: 52%;
+  border-top: 1.5px solid rgb(192, 192, 194);
+  line-height: 0px;
+  right: 7%;
+  position: absolute;
+}
+
+@media (max-width:1200px) {
   .thumbnail-title {
-    font-family: WeiBei, NotoSerifTC;
-    letter-spacing: 10px;
-    font-size: 32px;
-    color: #434343;
-    right: 7%;
-    position: absolute;
+    font-size: 28px;
   }
-  
+}
+
+@media (max-width:1000px) {
+  .thumbnail-title {
+    font-size: 22px;
+  }
   .thumbnail-content {
-    font-family: Noto Sans;
-    letter-spacing: 5px;
-    line-height: 170%;
-    font-size: 16px;
-    color: #707070;
-    right: 13%;
-    left: 45%;
-    position: absolute;
+    font-size: 12px;
   }
+}
 
-  .thumbnail-arrow {
-    font-family: Noto Sans;
-    letter-spacing: 5px;
-    line-height: 170%;
-    font-size: 16px;
-    color: #707070;
-    right: 7%;
-    left: 84%;
-    position: absolute;
-  }
+/* For albums */
+.albums-header {
+  float: none;
+  margin: 40px 0px 25px 0px;
+  text-align: center;
+  border-bottom: 1px rgb(171, 171, 171) solid;
+}
 
-  .thumbnail-arrow:hover {
-    color: #9B8F81;
-    cursor: pointer;
-  }
-  
-  .thumbnail-line {
-    width: 52%;
-    border-top: 1.5px solid rgb(192, 192, 194);
-    line-height: 0px;
-    right: 7%;
-    position: absolute;
-  }
-  
-  @media (max-width:1200px) {
-    .thumbnail-title {
-      font-size: 28px;
-    }
-  }
-  
-  @media (max-width:1000px) {
-    .thumbnail-title {
-      font-size: 22px;
-    }
-    .thumbnail-content {
-      font-size: 12px;
-    }
-  }
-  
-  
+.header-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.upper-line {
+  content: "";
+  margin: 0px auto;
+  height: 5px;
+  width: 90%;
+  border-bottom: 1px rgb(171, 171, 171) solid;
+}
+
+.header-text {
+  font-size: 35px;
+  font-family: NotoSerifCJKtc;
+  letter-spacing: 7px;
+  padding: 10px 0px 15px 0px;
+  margin: 0px;
+  margin-right: -7px;
+}
+
+.album {
+  padding: 20px 22px;
+}
+
+.album-img-center-cropped {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.album-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 35px;
+}

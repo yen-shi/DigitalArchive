@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="/DigitalArchive/public/share/background/background.css">
     <link rel="stylesheet" type="text/css" href="/DigitalArchive/public/about/css/menu.css">
     <link rel="stylesheet" type="text/css" href="/DigitalArchive/public/education/css/education.css">
-    <link rel="stylesheet" type="text/css" href="/DigitalArchive/public/education/css/main.css">
   </head>
   <body>
   	<nav id="navMenu" class="navbar navbar-fixed-top navbar-custom "></nav>
@@ -34,11 +33,13 @@
         </div>
       </div>
     </div>
+
     <div class="container main-section">
       <div>
         <img class="thumbnail-image"
-            src="/DigitalArchive/public/education/img/ntuee.jpg"
-            style="top: 8%;">
+             src="/DigitalArchive/public/education/img/ntuee.jpg"
+             style="top: 8%;"
+             onclick="getAlbum('台大電機系')">
         <div>
           <p class="thumbnail-title"
              style="top: 9.5%;">
@@ -49,7 +50,8 @@
              style="top: 16%;">
              李琳山教授早年在美國加州史丹佛大學攻讀電機工程碩博士，後留在美國擔任人造衛星通訊顧問，但台美斷交時決心回國「因為台灣是我的家鄉！」李說。當時台灣尚無能力發展人造衛星通訊，他也索性改研究華語語音辨識。
           </p>
-          <p class="thumbnail-arrow" style="top: 26.5%;">
+          <p class="thumbnail-arrow" style="top: 26.5%;"
+             onclick="getAlbum('台大電機系')">
             Albums<span class="glyphicon glyphicon-circle-arrow-right"></span>
           </p>
         </div>
@@ -93,18 +95,13 @@
         </div>
       </div>
     </div>
-    <!--
-    <div class="container-fluid main-section">
-      <div class="col-xs-12 albums-header">
-        <div class="header-wrapper">
-          <div class="upper-line"></div>
-          <h1 class="header-text">台大電機系</h1>
-        </div>
-      </div>
+
+    <div class="container album-section">
     </div>
-    -->
+
     <nav id="footerMenu" class="navbar navbar-default footer-custom"></nav>
     <script src="/DigitalArchive/public/share/navbar/navScript.js"></script>
     <script src="/DigitalArchive/public/share/footer/footScript.js"></script>
+    <script src="/DigitalArchive/public/education/js/education.js"></script>
   </body>
 </html>
