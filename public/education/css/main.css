@@ -1,0 +1,28 @@
+.albums-header {
+  margin: 20px 0px;
+  text-align: center;
+  border-bottom: 1px rgb(171, 171, 171) solid;
+}
+
+.header-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.upper-line {
+  content: "";
+  background: rgb(171, 171, 171);
+  margin: 0px auto;
+  height: 1px;
+  width: 90%;
+}
+
+.header-text {
+  font-size: 35px;
+  font-family: NotoSerifCJKtc;
+  letter-spacing: 7px;
+  padding: 10px 0px 15px 0px;
+  margin: 0px;
+  margin-right: -7px;
+}
