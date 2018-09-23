@@ -1,0 +1,79 @@
+@font-face {
+    font-family: NotoSerifTC-SemiBold;
+    src: url(/DigitalArchive/public/fonts/NotoSerifTC-SemiBold.otf);
+  }
+  
+  @font-face {
+    font-family: NotoSerifTC;
+    src: url(/DigitalArchive/public/fonts/NotoSerifTC-Black.otf);
+  }
+  
+  @font-face {
+    font-family: WeiBei;
+    src: url('/DigitalArchive/public/fonts/DFWeiBei-W7-WIN-BF-01.woff');
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  .image-thumbnail {
+    z-index: 300;
+    cursor: pointer;
+    box-shadow: 23px 23px #958980;
+    position: absolute;
+    width: 30%;
+    left: 10%;
+  }
+  
+  .highlight-title {
+    font-family: WeiBei, NotoSerifTC;
+    letter-spacing: 10px;
+    font-size: 32px;
+    color: #434343;
+  }
+  
+  .highlight-content {
+    font-family: Noto Sans;
+    letter-spacing: 5px;
+    line-height: 170%;
+    font-size: 16px;
+    color: #707070;
+  }
+  
+  .homepage-white-section {
+    background-color: #FFFFFF;
+    width: 96vw;
+    height: 100vw;
+    margin: 0% 2% 0% 2%;
+    position: relative;
+  }
+  
+  .homepage-fullwidth-line {
+    width: 100%;
+    border-top: 1px solid rgb(192, 192, 194);
+    line-height: 0px;
+  }
+  
+  .homepage-halfwidth-line {
+    width: 45%;
+    border-top: 1.5px solid rgb(192, 192, 194);
+    line-height: 0px;
+  }
+  
+  @media (max-width:1200px) {
+    .highlight-title {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width:1000px) {
+    .highlight-title {
+      font-size: 22px;
+    }
+    .highlight-content {
+      font-size: 12px;
+    }
+  }
+  
+  
