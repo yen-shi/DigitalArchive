@@ -2,6 +2,14 @@ const albums = {
   '台大電機系': [ '/DigitalArchive/public/education/img/album-1.png',
                   '/DigitalArchive/public/education/img/album-2.png',
                   '/DigitalArchive/public/education/img/album-2.png',
+                  '/DigitalArchive/public/education/img/album-1.png', ],
+  '台大資工系': [ '/DigitalArchive/public/education/img/album-1.png',
+                  '/DigitalArchive/public/education/img/album-2.png',
+                  '/DigitalArchive/public/education/img/album-2.png',
+                  '/DigitalArchive/public/education/img/album-1.png', ],
+  '語音處理實驗室': [ '/DigitalArchive/public/education/img/album-1.png',
+                  '/DigitalArchive/public/education/img/album-2.png',
+                  '/DigitalArchive/public/education/img/album-2.png',
                   '/DigitalArchive/public/education/img/album-1.png', ]
 };
 
