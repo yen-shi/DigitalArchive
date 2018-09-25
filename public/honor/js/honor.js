@@ -67,13 +67,17 @@ function choose(type) {
 }
 
 modalContents = {
-  '總統科學獎': `<h4 class="modal-text-title">電資學院熱烈慶賀李琳山教授榮獲總統科學獎</h4>
-  <iframe class="modal-movie" src="https://www.youtube.com/embed/NulBlWIhfaM?rel=0&amp;start=565" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  <p class="modal-caption">Video 1 - [台灣名人堂] 2015 總統科學獎特輯</p><p class="modal-text">李琳山教授在1979年中美斷交臺灣風雨飄搖之際放棄在美安定優裕之研究環境回國,在當時相當艱困的國內學術條件下打造在臺灣的研究基地,長期鑽研語音訊號之電腦處理三十餘年並開花結果。他的研究在國際學術界被高度肯定,並在諸多國際學術事務中擔任積極角色並有突出貢獻,有效提升臺灣在國際學術界之地位。他在臺大電機系及資訊系任教三十餘年,曾任臺大資訊系主任5年、中研院資訊所所長6年、臺大研發長3年、臺大電機資訊學院院長3年,任內對相關領域之學術教育及典章制度著有貢獻,培育學生無數,遍佈今日國內外學術界、產業界,包括不少領袖人物。李教授在研究上的傑出成就及貢獻略述如下:1. 早期對華語語音及語言處理之開拓性貢獻李教授為華語語音處理極少數拓荒者之一。他針對華語文之特有結構,探討在這些特有結構下更有效處理華語之方法;逐年發展出當時最領先之華語各項技術,建構出基礎技術體系。他針對華語所有單音作了最早最完整的電腦處理分析,也針對華語文句建立了最早最完整的電腦分析文法及剖析器,可分析非常複雜的文句;他首先建立系統化的華語韻律規則並用以合成語音訊號,今日韻律仍是華語語音合</p>
-  <img class="modal-images-h" src="/DigitalArchive/public/honor/img/2015_President_1.jpg"></img>
-  <p class="modal-caption">Figure 1 - 總統科學獎獎杯</p>
-  <img class="modal-images-w" src="/DigitalArchive/public/honor/img/2015_President_2.jpg"></img>
-  <p class="modal-caption">Figure 2 - 總統科學獎獎狀</p>`,
+  '總統科學獎': `<img class="modal-images-h" src="/DigitalArchive/public/honor/img/2015_president/thumbnail/MG_4568.jpg"></img>
+  <p class="modal-text">這是我國科學工作者所能獲得之最高榮譽，每兩年只選出2～3人，涵蓋所有領域，由總統、副總統主持在總統府之頒獎典禮，並邀請在總統府晚宴。總統府並有茶會邀請得獎人之家人親友一同觀禮。</p>
+  <p class="modal-text">得獎人必須在全球科學界受到高度肯定尊敬，對國家社會有重大貢獻，並有效致力提升我國在全球科學界之地位。由總統科學獎委員會選出得獎人，該委員會由中研院院長及科技部長擔任召集人及副召集人。至2015年為止，全國共有約20位得獎人，其中18位得獎時為中研院院士，但國內中研院院士（不計海外）約有100人。中研院每2年選出院士共約二十餘人，其中很多在海外。</p>
+  <h4 class="modal-text-title">非凡影片 — 得獎人介紹</h4>
+  <iframe class="modal-movie" src="https://drive.google.com/file/d/0BzqR-ZhARFEVcVF3WWJCbzAtTHc/preview" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+  <h4 class="modal-text-title">表揚實錄 — 總統府頒獎典禮手冊</h4>
+  <iframe class="modal-slides" src="https://drive.google.com/file/d/0BzqR-ZhARFEVTVNUMmoxQ2RzSzA/preview"></iframe>
+  <h4 class="modal-text-title">頒獎典禮相片集</h4>
+  <h4 class="modal-text-title">總統府頒獎典禮錄影</h4>
+  <iframe class="modal-movie" src="https://drive.google.com/file/d/0BzqR-ZhARFEVMmN4djYzUWJGc2M/preview" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+  <h4 class="modal-text-title">得獎致詞</h4>`,
   '中央研究院工程科學組第一屆院士': `<h4 class="modal-text-title">慶賀李琳山教授榮任中研院工程組第一屆唯一國內院士</h4>
   <img class="modal-images-w" src="/DigitalArchive/public/honor/img/2016_Academic_Sinica_1.jpg"></img>
   <p class="modal-caption">Figure 1 - 台大網站首頁校訊</p>

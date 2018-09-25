@@ -55,12 +55,12 @@ h4.modal-subtitle {
 }
 
 .modal-text-title {
-  text-align: center;
   margin: 0px;
+  padding: 0px 50px;
   line-height: 60px;
-  font-family: serif;
+  font-size: 22px;
+  font-family: 'Noto Sans';
   letter-spacing: 2px;
-  font-size: 28px;
 }
 
 .modal-text {
