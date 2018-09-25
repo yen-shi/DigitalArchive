@@ -42,6 +42,11 @@ body {
   position: absolute;
 }
 
+.thumbnail-title:hover {
+  color: #9B8F81;
+  cursor: pointer;
+}
+
 .thumbnail-content {
   font-family: Noto Sans;
   letter-spacing: 5px;
@@ -81,6 +86,9 @@ body {
   .thumbnail-title {
     font-size: 28px;
   }
+  .thumbnail-arrow {
+    left: 82%;
+  }
 }
 
 @media (max-width:1000px) {
@@ -89,6 +97,10 @@ body {
   }
   .thumbnail-content {
     font-size: 12px;
+  }
+  .thumbnail-arrow {
+    font-size: 10px;
+    left: 80%;
   }
 }
 
