@@ -20,12 +20,12 @@
     <div class="container menu-bar">
       <div class="menu col-xs-6">
         <div>
-          <a href="#" class="in-page-href menu-chinese">課程<br/><span class="menu-english">Courses</span></a>
+          <a class="in-page-href menu-chinese">課程<br/><span class="menu-english">Courses</span></a>
         </div>
       </div>
       <div class="menu menu-right col-xs-6">
-        <div>
-          <span><a href="#" class="in-page-href menu-chinese">師生<br/><span class="menu-english">Students</span></a></span>
+        <div onclick="getStudents()">
+          <span><a class="in-page-href menu-chinese">師生<br/><span class="menu-english">Students</span></a></span>
         </div>
       </div>
     </div>
@@ -34,8 +34,11 @@
       <div>
         <img class="thumbnail-image"
              src="/DigitalArchive/public/education/img/ntuee.jpg"
-             style="top: 8%;"
-             onclick="getAlbum('台大電機系')">
+             style="top: 8%;">
+        <div class="img-hover-wrapper" onclick="getAlbum('台大電機系')"
+             style="position: absolute; top: 8%;">
+          <div class="img-hover-effect"></div>
+        </div>
         <div>
           <p class="thumbnail-title"
              style="top: 9.5%;"
@@ -56,8 +59,11 @@
       <div>
         <img class="thumbnail-image"
             src="/DigitalArchive/public/education/img/ntucsie.jpg"
-            style="top: 38%;"
-            onclick="getAlbum('台大資工系')">
+            style="top: 38%;">
+        <div class="img-hover-wrapper" onclick="getAlbum('台大資工系')"
+             style="position: absolute; top: 38%;">
+          <div class="img-hover-effect"></div>
+        </div>
         <div>
           <p class="thumbnail-title"
               style="top: 39.5%;"
@@ -78,8 +84,11 @@
       <div>
         <img class="thumbnail-image"
             src="/DigitalArchive/public/education/img/speechlab.jpg"
-            style="top: 68%;"
-            onclick="getAlbum('語音處理實驗室')">
+            style="top: 68%;">
+        <div class="img-hover-wrapper" onclick="getAlbum('語音處理實驗室')"
+             style="position: absolute; top: 68%;">
+          <div class="img-hover-effect"></div>
+        </div>
         <div>
           <p class="thumbnail-title"
               style="top: 69.5%;"

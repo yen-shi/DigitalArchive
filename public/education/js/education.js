@@ -43,4 +43,12 @@ function getAlbum(name) {
   content += getHeader(name);
   content += getAlbumsString(name);
   albumSection.innerHTML = content;
+  albumSection.style.display = "block"
+}
+
+function getStudents() {
+  albumSection = document.getElementsByClassName('album-section')[0];
+  albumSection.style.display = 'none';
+  mainSection = document.getElementsByClassName('main-section')[0];
+  mainSection.style.display = 'block';
 }
