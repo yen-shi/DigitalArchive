@@ -14,7 +14,6 @@
   justify-content: center;
   align-items: center;
   border-left: 1.5px rgb(171, 171, 171) solid;
-  cursor: pointer;
 }
 
 .menu-right {
@@ -23,7 +22,19 @@
 
 .menu div {
   text-align: center;
+  color: rgb(82, 83, 85);
+  text-decoration: none;
   /*font-family: SimSun, STSong;*/
+}
+
+.menu div a {
+  color: rgb(82, 83, 85);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu div a:hover {
+  color: rgb(157, 147, 132);
 }
 
 .menu-chinese {
@@ -36,15 +47,6 @@
   font-size: 30px;
   letter-spacing: 4px;
   font-family: NotoSerifCJKtc;
-}
-
-.in-page-href {
-  color: rgb(82, 83, 85);
-}
-
-.in-page-href:hover {
-  color: rgb(157, 147, 132);
-  text-decoration: none;
 }
 
 .href-position {

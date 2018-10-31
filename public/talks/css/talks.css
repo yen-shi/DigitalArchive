@@ -30,6 +30,7 @@
 
 .panel-title-custom:hover {
     background-image: linear-gradient(#FFFFFF 0%, #D3CCC2 100%);
+    cursor: pointer;
 }
 
 .panel-title-text-custom, .panel-title-text-custom:hover, .panel-title-text-custom:focus {
@@ -48,6 +49,7 @@
     background-color: #EDEDEF;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 .panel-body {

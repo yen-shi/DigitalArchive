@@ -20,10 +20,10 @@ const data = [
     ]
   },
   {
-    "mainTitle": "科普 &nbsp; Popular Science",
+    "mainTitle": "研究/生涯回顧及科普 &nbsp; Research, Career, and Popular Science",
     "mainList": [
       {
-        "minorTitle": "科普小標",
+        "minorTitle": "科普 Popular Science",
         "minorList": [
           {
             "title": "跨領域餐會開場致詞-芝麻開門-語音技術的前世今生",
@@ -32,26 +32,6 @@ const data = [
           },
           {
             "title": "科學月刊 李琳山：很多中文語音輸入產品都用到我的研究成果",
-            "icon": ["image", "video", "slide", "website"],
-            "content": "content2"
-          }
-        ]
-      } 
-    ]
-  },
-  {
-    "mainTitle": "研究或生涯回顧 &nbsp; Research and Career Review",
-    "mainList": [
-      {
-        "minorTitle": "研究或生涯回顧小標",
-        "minorList": [
-          {
-            "title": "text",
-            "icon": ["image", "video", "slide", "website"],
-            "content": "content"
-          },
-          {
-            "title": "text2",
             "icon": ["image", "video", "slide", "website"],
             "content": "content2"
           }
