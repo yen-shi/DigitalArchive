@@ -66,6 +66,8 @@ function choose(type) {
   createTimeLine(timedata, type);
 }
 
+let a = '100';
+
 modalContents = {
   '總統科學獎': `<img class="modal-images-h" src="/DigitalArchive/public/honor/img/2015_president/thumbnail/MG_4568.jpg"></img>
   <p class="modal-text">這是我國科學工作者所能獲得之最高榮譽，每兩年只選出2～3人，涵蓋所有領域，由總統、副總統主持在總統府之頒獎典禮，並邀請在總統府晚宴。總統府並有茶會邀請得獎人之家人親友一同觀禮。</p>
@@ -78,6 +80,7 @@ modalContents = {
   <h4 class="modal-text-title">總統府頒獎典禮錄影</h4>
   <iframe class="modal-movie" src="https://drive.google.com/file/d/0BzqR-ZhARFEVMmN4djYzUWJGc2M/preview" frameborder="0" allow="autoplay; encrypted-media"></iframe>
   <h4 class="modal-text-title">得獎致詞</h4>`,
+
   '中央研究院工程科學組第一屆院士': `<h4 class="modal-text-title">慶賀李琳山教授榮任中研院工程組第一屆唯一國內院士</h4>
   <img class="modal-images-w" src="/DigitalArchive/public/honor/img/2016_Academic_Sinica_1.jpg"></img>
   <p class="modal-caption">Figure 1 - 台大網站首頁校訊</p>
@@ -90,6 +93,9 @@ modalContents = {
   <p class="modal-caption">Figure 3 - 演講照片</p>
   <p class="modal-text">李教授在臺大電機系、資訊系任教三十餘年，作育英才無數；今日國內外電機資訊領域產業界、學術界之中堅份子及領袖人物中，有非常多均是他早年門生。他曾任臺大資訊系主任，中研院資訊所所長，臺大研發會主委，臺大電機資訊學院院長。</p>
   <p class="modal-text">李琳山教授在國內資訊電機相關領域發展之關鍵年代，在不同崗位上擔任重要工作，為領袖人物之一，對國內相關領域之發展貢獻卓著。1979中美斷交時李琳山教授率先放棄在美國優越研究環境，回到當年物質條件極為艱困的臺大任教，打造在臺灣的研究環境；並以身作則大力勉勵當時成群赴美留學定居的臺大學生，出國時能「西天取經，志在中土」。日後大批技術人才回國貢獻所學及大批優秀學生在國內工作定居，成為國內電子資訊產業蓬勃發展之一重要基礎，他應屬過程中的諸多幕後推手之一。</p>
+  ${ getCarousel(["/DigitalArchive/public/honor/img/2016_Academic_Sinica_1.jpg",
+                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica_2.jpeg",
+                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica_3.jpg"]) }
   `
 };
 
