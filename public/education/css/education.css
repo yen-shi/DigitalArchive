@@ -163,7 +163,7 @@ body {
   position: absolute;
   z-index: 5;
   opacity: 0;
-  background-color: #000000;
+  background-color: #FFFFFF;
 }
 .img-hover-wrapper {
   display: flex;
