@@ -46,6 +46,10 @@ html {
   text-decoration: none;
 }
 
+.biography-content {
+  text-align: justify;
+}
+
 #header-chinese {
   font-size: 26px;
 }
