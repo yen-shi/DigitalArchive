@@ -25,7 +25,7 @@
     letter-spacing: 2px;
     color: #515356;
     font-family: WeiBei, NotoSerifTC;
-    font-size: 30px;
+    font-size: 28px;
 }
 /*
 .panel-title-custom:hover {
@@ -93,3 +93,14 @@ h4.panel-body-text-title-custom {
     padding: 0px 5px;
 }
 
+@media (max-width:1200px) {
+    .panel-title-custom {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:900px) {
+    .panel-title-custom {
+        font-size: 18px;
+    }
+}
