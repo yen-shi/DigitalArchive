@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "pgwslider": "^2.3.1"
   },
   "devDependencies": {},
   "scripts": {

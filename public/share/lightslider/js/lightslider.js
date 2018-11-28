@@ -2,7 +2,7 @@ function getLightSlider(classname, imgList) {
   let lis = '';
   for(let i = 0; i < imgList.length; i += 1)
     lis += `<li data-thumb="${ imgList[i] }"><img src="${ imgList[i] }" alt="${ imgList[i] }"></li>`;
-  return `<div style="width: 90%; height: 600px"class="container">
+  return `<div style="width: 80%; height: 640px; padding: 20px 0px"class="container">
       <ul id="${ classname }" class="light-slider gallery list-unstyled cS-hidden">
         ${ lis }
       </ul>
@@ -393,17 +393,20 @@ function getLightSlider(classname, imgList) {
                     if (settings.gallery === true) {
                         if (settings.vertical === true) {
                             // set Gallery thumbnail width
-                            $cSouter.find('.lSPager').css('width', settings.vThumbWidth + 'px');
+                            // $cSouter.find('.lSPager').css('width', settings.vThumbWidth + 'px');
+                            $cSouter.find('.lSPager').css('width', '100%');
                         }
                         pagerWidth = (i * (settings.thumbMargin + thumbWidth)) + 0.5;
                         $cSouter.find('.lSPager').css({
-                            property: pagerWidth + 'px',
+                            // property: pagerWidth + 'px',
+                            property: '100%',
                             'transition-duration': settings.speed + 'ms'
                         });
                         if (settings.vertical === true) {
                             $slide.parent().css('padding-right', (settings.vThumbWidth + settings.galleryMargin) + 'px');
                         }
-                        $cSouter.find('.lSPager').css(property, pagerWidth + 'px');
+                        // $cSouter.find('.lSPager').css(property, pagerWidth + 'px');
+                        $cSouter.find('.lSPager').css(property, '100%');
                     }
                     var $pager = $cSouter.find('.lSPager').find('li');
                     $pager.first().addClass('active');

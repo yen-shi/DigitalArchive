@@ -96,24 +96,9 @@ modalContents = {
   ${ getLightSlider("Academic-Sinica-Slider",
                   ["/DigitalArchive/public/honor/img/2016_Academic_Sinica_1.jpg",
                   "/DigitalArchive/public/honor/img/2016_Academic_Sinica_2.jpeg",
-                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica_3.jpg",
-                  "/DigitalArchive/public/honor/img/2015_President_1.jpg",
-                  "/DigitalArchive/public/honor/img/2015_President_2.jpg",
-                  "/DigitalArchive/public/honor/img/2015_Presidential_Award.jpg",
-                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica.jpg",
-                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica_2.jpeg",
-                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica_3.jpg",
-                  "/DigitalArchive/public/honor/img/2015_President_1.jpg",
-                  "/DigitalArchive/public/honor/img/2015_President_2.jpg",
-                  "/DigitalArchive/public/honor/img/2015_Presidential_Award.jpg",
-                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica.jpg",
-                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica_1.jpg"]) }
+                  "/DigitalArchive/public/honor/img/2016_Academic_Sinica_3.jpg"]) }
   `
 };
-  // ${ getPGWSlider("Academic-Sinica-Slider",
-  //                 ["/DigitalArchive/public/honor/img/2016_Academic_Sinica_1.jpg",
-  //                 "/DigitalArchive/public/honor/img/2016_Academic_Sinica_2.jpeg",
-  //                 "/DigitalArchive/public/honor/img/2016_Academic_Sinica_3.jpg"]) }
 
 function getModelTitle(str) {
   return `<div class="modal-title">
