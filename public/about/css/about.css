@@ -50,6 +50,18 @@ html {
   text-align: justify;
 }
 
+.honor-content {
+  clear: both;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
 #header-chinese {
   font-size: 26px;
 }
